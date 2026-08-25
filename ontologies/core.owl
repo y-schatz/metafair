@@ -64,13 +64,6 @@
           rdfs:range xsd:anyURI .
 
 
-###  http://www.hesge.ch/metafair/ontologies/core#mimeType
-:mimeType rdf:type owl:DatatypeProperty ;
-          rdfs:subPropertyOf owl:topDataProperty ;
-          rdfs:domain :DataFormat ;
-          rdfs:range xsd:string .
-
-
 ###  http://www.hesge.ch/metafair/ontologies/core#version
 :version rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
