@@ -52,8 +52,7 @@ core:field rdf:type owl:AnnotationProperty .
 :IndustryFoundationClasses rdf:type owl:NamedIndividual ;
                            core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#ModelViewDefinition> ;
                            core:fileExtension ".ifc" ;
-                           core:mimeType "application/x-step" ;
-                           core:field "MVD" .
+                           core:mimeType "application/x-step" .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/formats#JavaScriptObjectNotation
