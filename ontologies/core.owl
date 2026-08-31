@@ -50,6 +50,13 @@
               rdfs:range xsd:string .
 
 
+###  http://www.hesge.ch/metafair/ontologies/core#fieldType
+:fieldType rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Attribute ;
+           rdfs:range xsd:string .
+
+
 ###  http://www.hesge.ch/metafair/ontologies/core#fileExtension
 :fileExtension rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
