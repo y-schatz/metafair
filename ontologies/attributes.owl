@@ -17,7 +17,7 @@
 ### http://www.hesge.ch/metafair/ontologies/attributes#Discipline
 :Discipline rdf:type owl:NamedIndividual ,
                      core:Attribute ;
-            core:fieldType "textarea" ;
+            core:fieldType "textare" ;
             rdfs:label "Discipline"@en .
 
 
