@@ -14,14 +14,14 @@
 
 ###  http://www.hesge.ch/metafair/ontologies/core#hasAttribute
 :hasAttribute rdf:type owl:ObjectProperty ;
-              rdfs:domain :DataArtifact ,
+              rdfs:domain :DataObject ,
                           :DataFormat ;
               rdfs:range :Attribute .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#hasFormat
 :hasFormat rdf:type owl:ObjectProperty ;
-           rdfs:domain :DataArtifact ;
+           rdfs:domain :DataObject ;
            rdfs:range :DataFormat .
 
 
@@ -32,14 +32,14 @@
 ###  http://www.hesge.ch/metafair/ontologies/core#creationDate
 :creationDate rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:domain :DataArtifact ;
+              rdfs:domain :DataObject ;
               rdfs:range xsd:dateTime .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#description
 :description rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:domain :DataArtifact ;
+             rdfs:domain :DataObject ;
              rdfs:range xsd:string .
 
 
@@ -67,21 +67,21 @@
 ###  http://www.hesge.ch/metafair/ontologies/core#identifier
 :identifier rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain :DataArtifact ;
+            rdfs:domain :DataObject ;
             rdfs:range xsd:string .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#location
 :location rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
-          rdfs:domain :DataArtifact ;
+          rdfs:domain :DataObject ;
           rdfs:range xsd:anyURI .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#version
 :version rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
-         rdfs:domain :DataArtifact ;
+         rdfs:domain :DataObject ;
          rdfs:range xsd:string .
 
 
@@ -93,8 +93,8 @@
 :Attribute rdf:type owl:Class .
 
 
-###  http://www.hesge.ch/metafair/ontologies/core#DataArtifact
-:DataArtifact rdf:type owl:Class .
+###  http://www.hesge.ch/metafair/ontologies/core#DataObject
+:DataObject rdf:type owl:Class .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#DataFormat
