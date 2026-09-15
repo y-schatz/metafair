@@ -22,7 +22,7 @@
                    core:DataArtifact ;
           core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Boolean> ,
                             <http://www.hesge.ch/metafair/ontologies/attributes#Date> ,
-                            <http://www.hesge.ch/metafair/ontologies/attributes#LongText> ;
+                            <http://www.hesge.ch/metafair/ontologies/attributes#Label> ;
           core:hasFormat formats:IndustryFoundationClasses ;
           rdfs:label "BIM Model"@en .
 

@@ -28,11 +28,11 @@
             rdfs:label "Date"@en .
 
 
-### http://www.hesge.ch/metafair/ontologies/attributes#LongText
-:LongText rdf:type owl:NamedIndividual ,
+### http://www.hesge.ch/metafair/ontologies/attributes#Label
+:Label rdf:type owl:NamedIndividual ,
                      core:Attribute ;
-            core:fieldType "longText" ;
-            rdfs:label "Long text"@en .
+            core:fieldType "label" ;
+            rdfs:label "Label"@en .
 
 
 ### http://www.hesge.ch/metafair/ontologies/attributes#Number
