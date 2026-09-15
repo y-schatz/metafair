@@ -50,7 +50,9 @@ core:field rdf:type owl:AnnotationProperty .
 
 ###  http://www.hesge.ch/metafair/ontologies/formats#IndustryFoundationClasses
 :IndustryFoundationClasses rdf:type owl:NamedIndividual ;
-                           core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#ModelViewDefinition> ;
+                           core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Number> ,
+                                             <http://www.hesge.ch/metafair/ontologies/attributes#Select> ,
+                                             <http://www.hesge.ch/metafair/ontologies/attributes#Text> ;
                            core:fileExtension "*.ifc", "*.ifczip" ;
                            rdfs:label "IFC"@en .
 

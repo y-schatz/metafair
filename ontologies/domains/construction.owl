@@ -20,7 +20,9 @@
 ###  http://www.hesge.ch/metafair/ontologies/domains/construction#BIMModel
 :BIMModel rdf:type owl:NamedIndividual ,
                    core:DataArtifact ;
-          core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Discipline> ;
+          core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Boolean> ,
+                            <http://www.hesge.ch/metafair/ontologies/attributes#Date> ,
+                            <http://www.hesge.ch/metafair/ontologies/attributes#LongText> ;
           core:hasFormat formats:IndustryFoundationClasses ;
           rdfs:label "BIM Model"@en .
 
