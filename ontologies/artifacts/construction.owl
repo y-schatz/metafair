@@ -9,7 +9,7 @@
 @base <http://www.hesge.ch/metafair/ontologies/objects/construction#> .
 
 <http://www.hesge.ch/metafair/ontologies/objects/construction> rdf:type owl:Ontology ;
-                                                                          owl:imports <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/attributes.owl> ,
+                                                                          owl:imports <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/fields.owl> ,
                                                                                       <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/core.owl> ,
                                                                                       <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/formats.owl> .
 
@@ -20,8 +20,7 @@
 ###  http://www.hesge.ch/metafair/ontologies/objects/construction#BIMModel
 :BIMModel rdf:type owl:NamedIndividual ,
                    core:DataArtifact ;
-          core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Boolean> ,
-                            <http://www.hesge.ch/metafair/ontologies/attributes#Date> ,
-                            <http://www.hesge.ch/metafair/ontologies/attributes#Label> ;
+          core:hasField <http://www.hesge.ch/metafair/ontologies/fields#AuthoringTool> ,
+                        <http://www.hesge.ch/metafair/ontologies/fields#Discipline> ;
           core:hasFormat formats:IndustryFoundationClasses ;
           rdfs:label "BIM Model"@en .

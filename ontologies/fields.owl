@@ -1,0 +1,82 @@
+@prefix : <http://www.hesge.ch/metafair/ontologies/fields#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix core: <http://www.hesge.ch/metafair/ontologies/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.hesge.ch/metafair/ontologies/fields#> .
+
+<http://www.hesge.ch/metafair/ontologies/fields> rdf:type owl:Ontology ;
+                                                                owl:imports <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/core.owl> .
+
+#################################################################
+#    Individuals
+#################################################################
+
+### http://www.hesge.ch/metafair/ontologies/fields#Boolean
+#:Boolean rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "boolean" ;
+#            rdfs:label "Boolean"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Date
+#:Date rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "date" ;
+#            rdfs:label "Date"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Label
+#:Label rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "url" ;
+#            rdfs:label "Label"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Number
+#:Number rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "number" ;
+#            rdfs:label "Number"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Select
+#:Select rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "select" ;
+#            core:enumeratedValue "Value 1" ,
+#                                 "Value 2" ,
+#                                 "Value 3" ;
+#            rdfs:label "Select"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Text
+#:Text rdf:type owl:NamedIndividual ,
+#                     core:Field ;
+#            core:fieldType "text" ;
+#            rdfs:label "Text"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#AuthoringTool
+:Text rdf:type owl:NamedIndividual ,
+                     core:Field ;
+            core:fieldType "label" ;
+            rdfs:label "Authoring tool"@en .
+
+
+### http://www.hesge.ch/metafair/ontologies/fields#Discipline
+:Text rdf:type owl:NamedIndividual ,
+                     core:Field ;
+            core:fieldType "label" ;
+            rdfs:label "Discipline"@en .
+
+### http://www.hesge.ch/metafair/ontologies/fields#ModelViewDefinition
+:Text rdf:type owl:NamedIndividual ,
+                     core:Field ;
+            core:fieldType "select" ;
+            core:enumeratedValue "Coordination View 2.0	(IFC2x3)" ,
+                                 "Reference View (IFC4)" ,
+                                 "Design Transfer View (IFC4)" ;
+            rdfs:label "Model View Definition"@en .

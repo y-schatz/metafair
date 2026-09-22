@@ -8,7 +8,7 @@
 @base <http://www.hesge.ch/metafair/ontologies/formats#> .
 
 <http://www.hesge.ch/metafair/ontologies/formats> rdf:type owl:Ontology ;
-                                                             owl:imports <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/attributes.owl> ,
+                                                             owl:imports <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/fields.owl> ,
                                                                          <https://raw.githubusercontent.com/y-schatz/metafair/refs/heads/main/ontologies/core.owl> .
 
 #################################################################
@@ -50,9 +50,7 @@ core:field rdf:type owl:AnnotationProperty .
 
 ###  http://www.hesge.ch/metafair/ontologies/formats#IndustryFoundationClasses
 :IndustryFoundationClasses rdf:type owl:NamedIndividual ;
-                           core:hasAttribute <http://www.hesge.ch/metafair/ontologies/attributes#Number> ,
-                                             <http://www.hesge.ch/metafair/ontologies/attributes#Select> ,
-                                             <http://www.hesge.ch/metafair/ontologies/attributes#Text> ;
+                           core:hasField <http://www.hesge.ch/metafair/ontologies/fields#ModelViewDefinition> ;
                            core:fileExtension "*.ifc", "*.ifczip" ;
                            rdfs:label "IFC"@en .
 

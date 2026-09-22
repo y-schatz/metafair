@@ -12,11 +12,11 @@
 #    Artifact Properties
 #################################################################
 
-###  http://www.hesge.ch/metafair/ontologies/core#hasAttribute
-:hasAttribute rdf:type owl:ArtifactProperty ;
+###  http://www.hesge.ch/metafair/ontologies/core#hasField
+:hasField rdf:type owl:ArtifactProperty ;
               rdfs:domain :DataArtifact ,
                           :DataFormat ;
-              rdfs:range :Attribute .
+              rdfs:range :Field .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#hasFormat
@@ -46,14 +46,14 @@
 ###  http://www.hesge.ch/metafair/ontologies/core#enumeratedValue
 :enumeratedValue rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:domain :Attribute ;
+              rdfs:domain :Field ;
               rdfs:range xsd:string .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#fieldType
 :fieldType rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:domain :Attribute ;
+           rdfs:domain :Field ;
            rdfs:range xsd:string .
 
 
@@ -89,8 +89,8 @@
 #    Classes
 #################################################################
 
-###  http://www.hesge.ch/metafair/ontologies/core#Attribute
-:Attribute rdf:type owl:Class .
+###  http://www.hesge.ch/metafair/ontologies/core#Field
+:Field rdf:type owl:Class .
 
 
 ###  http://www.hesge.ch/metafair/ontologies/core#DataArtifact
