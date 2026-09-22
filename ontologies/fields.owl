@@ -76,7 +76,7 @@
 :ModelViewDefinition rdf:type owl:NamedIndividual ,
                      core:Field ;
             core:fieldType "select" ;
-            core:enumeratedValue "Coordination View 2.0	(IFC2x3)" ,
+            core:enumeratedValue "Coordination View 2.0 (IFC2x3)" ,
                                  "Reference View (IFC4)" ,
                                  "Design Transfer View (IFC4)" ;
             rdfs:label "Model View Definition"@en .
