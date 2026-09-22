@@ -60,20 +60,20 @@
 
 
 ### http://www.hesge.ch/metafair/ontologies/fields#AuthoringTool
-:Text rdf:type owl:NamedIndividual ,
+:AuthoringTool rdf:type owl:NamedIndividual ,
                      core:Field ;
             core:fieldType "label" ;
             rdfs:label "Authoring tool"@en .
 
 
 ### http://www.hesge.ch/metafair/ontologies/fields#Discipline
-:Text rdf:type owl:NamedIndividual ,
+:Discipline rdf:type owl:NamedIndividual ,
                      core:Field ;
             core:fieldType "label" ;
             rdfs:label "Discipline"@en .
 
 ### http://www.hesge.ch/metafair/ontologies/fields#ModelViewDefinition
-:Text rdf:type owl:NamedIndividual ,
+:ModelViewDefinition rdf:type owl:NamedIndividual ,
                      core:Field ;
             core:fieldType "select" ;
             core:enumeratedValue "Coordination View 2.0	(IFC2x3)" ,
