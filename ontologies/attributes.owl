@@ -31,7 +31,7 @@
 ### http://www.hesge.ch/metafair/ontologies/attributes#Label
 :Label rdf:type owl:NamedIndividual ,
                      core:Attribute ;
-            core:fieldType "label" ;
+            core:fieldType "url" ;
             rdfs:label "Label"@en .
 
 
